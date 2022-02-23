@@ -23,4 +23,4 @@ for character in range(0, nr_letters + nr_numbers + nr_symbols):
     elif choice == 2 and numbersUsed < nr_numbers:
         rand = random.randint(0, len(numbers) - 1)
         password += numbers[rand]
-print(f"Your password is {password}")
+print(f"Your randomly generated password is {password} ")
